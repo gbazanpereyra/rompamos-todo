@@ -29,4 +29,13 @@ public class MainController {
         return new ResponseEntity<Map>(response, HttpStatus.OK);
     }
 
+    @GetMapping("/lucho")
+    public ResponseEntity<?> testeando() {
+        Map <String, Object> response = new HashMap<>();
+
+        response.put("mensaje", "Mi nombre es Cosme Fulanito.");
+
+        return new ResponseEntity<Map>(response, HttpStatus.OK);
+    }
+
 }
