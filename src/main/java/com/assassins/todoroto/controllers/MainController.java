@@ -20,4 +20,13 @@ public class MainController {
         return new ResponseEntity<Map>(response, HttpStatus.OK);
     }
 
+    @GetMapping("/franco")
+    public ResponseEntity<?> probando() {
+        Map <String, Object> response = new HashMap<>();
+
+        response.put("mensaje", "Rompiendo todo 3.0 remix");
+
+        return new ResponseEntity<Map>(response, HttpStatus.OK);
+    }
+
 }
