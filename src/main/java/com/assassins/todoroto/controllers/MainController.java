@@ -38,4 +38,13 @@ public class MainController {
         return new ResponseEntity<Map>(response, HttpStatus.OK);
     }
 
+    @GetMapping("/martina")
+    public ResponseEntity<?> rompiendo() {
+        Map <String, Object> response = new HashMap<>();
+
+        response.put("mensaje", "Hola muchachada.");
+
+        return new ResponseEntity<Map>(response, HttpStatus.OK);
+    }
+
 }
