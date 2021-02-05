@@ -20,4 +20,13 @@ public class FrancoGeroController {
         return new ResponseEntity<Map>(response, HttpStatus.OK);
     }
 
+    @GetMapping("/franco-gero-merge")
+    public ResponseEntity<?> francoGeroMerge() {
+        Map<String, Object> response = new HashMap<>();
+
+        response.put("mensaje", "alto merge mostro");
+
+        return new ResponseEntity<Map>(response, HttpStatus.OK);
+    }
+
 }
