@@ -20,4 +20,15 @@ public class FrancoGeroController {
         return new ResponseEntity<Map>(response, HttpStatus.OK);
     }
 
+    @GetMapping("/merge")
+    public ResponseEntity<?> merge() {
+        Map<String, Object> response = new HashMap<>();
+
+        response.put("mensaje", "que haces mergeeee");
+
+        return new ResponseEntity<Map>(response, HttpStatus.OK);
+    }
+
+
+
 }
