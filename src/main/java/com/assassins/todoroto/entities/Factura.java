@@ -6,13 +6,13 @@ import java.util.List;
 public class Factura {
     private String id;
     private String nombre;
-    private List<String> producto;
+    private List<String> productos;
     private Double total;
 
     public Factura(String id, String nombre, List<String> producto, Double total) {
         this.id = id;
         this.nombre = nombre;
-        this.producto = producto;
+        this.productos = producto;
         this.total = total;
     }
 
@@ -33,11 +33,11 @@ public class Factura {
     }
 
     public List<String> getProducto() {
-        return producto;
+        return productos;
     }
 
     public void setProducto(List<String> producto) {
-        this.producto = producto;
+        this.productos = producto;
     }
 
     public Double getTotal() {
