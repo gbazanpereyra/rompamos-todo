@@ -2,11 +2,19 @@ package com.assassins.todoroto.entities;
 
 import java.util.List;
 
+//Lucho
 public class Factura {
     private String id;
     private String nombre;
     private List<String> producto;
     private Double total;
+
+    public Factura(String id, String nombre, List<String> producto, Double total) {
+        this.id = id;
+        this.nombre = nombre;
+        this.producto = producto;
+        this.total = total;
+    }
 
     public String getId() {
         return id;
