@@ -39,6 +39,8 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "CLIENTE: |[" + "nombreMarti = '" + nombre + "', apellidoFerra = '" + apellido + "']|";
+<<<<<<< HEAD
+        return "El cliente se llama nombreMarti "+ nombre + " y se apellidoFerra "+ apellido + "^^";
+>>>>>>> fab5d21e7bc912be67df2e9e92116231469a7177
     }
 }
