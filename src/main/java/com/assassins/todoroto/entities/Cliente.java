@@ -39,6 +39,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "CLIENTE: {" + "nombre = '" + nombre + "', apellido = '" + apellido + "'}";
+        return "CLIENTE: |[" + "nombre = '" + nombre + "', apellido = '" + apellido + "']|";
     }
 }
