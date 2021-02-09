@@ -39,8 +39,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-<<<<<<< HEAD
         return "El cliente se llama nombreMarti "+ nombre + " y se apellidoFerra "+ apellido + "^^";
->>>>>>> fab5d21e7bc912be67df2e9e92116231469a7177
     }
 }
